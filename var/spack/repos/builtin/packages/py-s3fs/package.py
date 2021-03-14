@@ -7,7 +7,8 @@ from spack import *
 
 
 class PyS3fs(PythonPackage):
-    """S3FS builds on aiobotocore to provide a convenient Python filesystem interface for S3."""
+    """S3FS builds on aiobotocore to provide a convenient Python filesystem
+    interface for S3."""
 
     homepage = "https://s3fs.readthedocs.io/en/latest/"
     pypi = "s3fs/s3fs-0.5.2.tar.gz"
